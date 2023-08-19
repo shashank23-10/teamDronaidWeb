@@ -1,7 +1,6 @@
 <?php
-    
+
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-          
         function get_data() {
             $datae = array();
             $datae[] = array(

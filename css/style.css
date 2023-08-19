@@ -10126,6 +10126,39 @@ textarea.form-control2 {
 .wt-team-2 .wt-info{	position: static; padding:30px; border-style:solid; border-color:#ddd; border-width:0px 1px 1px 1px;}
 .wt-team-2:hover .team-social-center{top:0px;}
 
+
+/*=========== Gallery ============*/
+.gallery-images {
+	margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 20px; /* Adds a gap between images */
+}
+
+.imagecon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagecon img{
+	width: 80%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .gallery-images {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-images {
+        grid-template-columns: 1fr; /* 1 column on even smaller screens */
+    }
+}
+
+
 /*=========== Flat Icons ============*/
 
 .icon-font-block{
