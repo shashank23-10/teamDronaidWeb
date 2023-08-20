@@ -10143,6 +10143,9 @@ textarea.form-control2 {
 
 .imagecon img{
 	width: 80%;
+	border: 0.5rem solid #1bb897;
+	border-style:groove;
+	border-radius: 1rem;
 }
 
 /* Media queries for responsiveness */
