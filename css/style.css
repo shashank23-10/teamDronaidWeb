@@ -10126,6 +10126,25 @@ textarea.form-control2 {
 .wt-team-2 .wt-info{	position: static; padding:30px; border-style:solid; border-color:#ddd; border-width:0px 1px 1px 1px;}
 .wt-team-2:hover .team-social-center{top:0px;}
 
+/* --------------READ MORE--------------- */
+.more {
+	display: none;
+  }
+#show-more {
+	border: none;
+	outline: none;
+	background-color: #1bc5af;
+	color: white;
+	cursor: pointer;
+	padding: 1rem;
+	border-radius: 1rem;
+	text-align: center;
+	margin-left: 47%;
+	margin-bottom: 2rem;
+}
+#show-more:hover{
+	background-color: #d72323;
+}
 
 /*=========== Gallery ============*/
 .gallery-images {

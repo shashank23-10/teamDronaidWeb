@@ -1,6 +1,20 @@
 /* =====================================
 All JavaScript fuctions Start
 ======================================*/
+
+//Read More Function on Blog Page
+function readmoreFunction() {
+	var btnText = document.getElementById("show-more");
+	var more = document.getElementById("more");
+  
+	if (more.style.display != "none") {
+	  more.style.display = "none";
+	  btnText.style.display = "none";
+	  btnText.innerHTML = "... Read Less";
+	  more.style.display = "inline";
+	}
+  }
+
 // Team inner section  change active elements
 
 function make_active(){
